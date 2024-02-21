@@ -14,14 +14,14 @@ pagoPA Generator
 </h1>
    <br/>
 <p>Dati generali</p><br/>
-   <p>Nome</p><input type="text" class="form-control" placeholder="Nome"><br/>
-   <p>Cognome</p><input type="text" class="form-control" placeholder="Cognome"><br/>
+   <p>Nome</p><input type="text" class="form-control" placeholder=""><br/>
+   <p>Cognome</p><input type="text" class="form-control" placeholder=""><br/>
   <p>Codice fiscale</p><input type="text" class="form-control"id="iscritti_codicefiscale" pattern="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$" required="required"><br/>
- <p>Causale versamento</p><input type="text" class="form-control" placeholder="Causale"><br/><br/>
+ <p>Causale versamento</p><input type="text" class="form-control" placeholder=""><br/><br/>
   <table> 
     <thead class="thead-light">
 <tr>
-<th scope="col">Causale</th>
+<th scope="col" colspan="2">Causale</th>
 <th scope="col">Importo</th>
 </tr>
 </thead>
@@ -29,13 +29,11 @@ pagoPA Generator
    </table>
    <tr>
       <td>
-       <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="check001">
-  <label class="form-check-label" for="check001">
+       <input class="form-check-input" type="checkbox" value="" id="check001">
+        </td>
+     <td> <label class="form-check-label" for="check001">
     Diritti di segreteria
-  </label>
-</div>
-      </td>
+  </label> </td>
       <td> <input type="number" class="form-control" placeholder="Importo"></td>
    </tr>
   </tbody>
